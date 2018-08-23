@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    background: #CFCBF1;
+}
+
+#nombre { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    box-sizing: content-box;
+    color: #120A2A;
+} 
+
+img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.botonera {
+    display: grid;
+}
+
+a {
+    color: #E6E0F8;
+    font-weight: bolder;
+    text-decoration: none; 
+    background: #9A2EFE;
+    padding: 5px 10px;
+    margin: 15px 0px;
+}
+
+a:hover {
+    background-color: #AC58FA;
+}
+
+.navegacion {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    background: #F1BCC7;
+    padding: 30px;
+    margin: 40px 40px 40px 40px;
+    position: fixed;
+}
+
+.content {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    background: #F4E1E1;
+    float: right;
+    padding: 30px;
+    margin: 40px 40px 40px 20px;
+    width: 65%;
+    display: block;
+}
+
+.list-item {
+    margin-bottom: 10px; 
+}
+   
+.viñetas {
+    list-style-type: none;
+}
+
